@@ -137,7 +137,7 @@ resource "aws_cloudwatch_metric_alarm" "swap_usage_too_high" {
 }
 
 module "burst_balance_too_low_label" {
-  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.1.3"
+  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.8.0"
   name       = var.name
   namespace  = var.namespace
   stage      = var.stage
@@ -145,7 +145,7 @@ module "burst_balance_too_low_label" {
 }
 
 module "cpu_utilization_too_high_label" {
-  source    = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.1.3"
+  source    = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.8.0"
   name      = var.name
   namespace = var.namespace
   stage     = var.stage
@@ -155,7 +155,7 @@ module "cpu_utilization_too_high_label" {
 }
 
 module "cpu_credit_balance_too_low_label" {
-  source    = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.1.3"
+  source    = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.8.0"
   name      = var.name
   namespace = var.namespace
   stage     = var.stage
@@ -165,7 +165,7 @@ module "cpu_credit_balance_too_low_label" {
 }
 
 module "disk_queue_depth_too_high_label" {
-  source    = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.1.3"
+  source    = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.8.0"
   name      = var.name
   namespace = var.namespace
   stage     = var.stage
@@ -175,7 +175,7 @@ module "disk_queue_depth_too_high_label" {
 }
 
 module "freeable_memory_too_low_label" {
-  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.1.3"
+  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.8.0"
   name       = var.name
   namespace  = var.namespace
   stage      = var.stage
@@ -183,7 +183,7 @@ module "freeable_memory_too_low_label" {
 }
 
 module "free_storage_space_threshold_label" {
-  source    = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.1.3"
+  source    = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.8.0"
   name      = var.name
   namespace = var.namespace
   stage     = var.stage
@@ -193,7 +193,7 @@ module "free_storage_space_threshold_label" {
 }
 
 module "swap_usage_too_high_label" {
-  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.1.3"
+  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.8.0"
   name       = var.name
   namespace  = var.namespace
   stage      = var.stage
